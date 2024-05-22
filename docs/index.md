@@ -1,17 +1,19 @@
 # Percona Distribution for PostgreSQL 16 Documentation
 
-Percona Distribution for PostgreSQL is a collection of open source tools to assist you in managing your PostgreSQL
-database system: it installs PostgreSQL and complements it by a selection of
-extensions that enable solving essential practical tasks efficiently.
+ Percona Distribution for PostgreSQL is a suite of open source software, tools and services required to deploy and maintain a reliable production cluster for PostgreSQL. It includes native PostgreSQL server, enhanced with extensions from open source community that are certified and tested to work together for high availability, backups, security, and monitoring that help ensure the cluster's peak performance. 
+ 
+ Part of the solution, Percona Operator for PostgreSQL, makes it easy to orchestrate the cluster reliably and repeatably in Kubernetes.
 
-[What's included in the Distribution?](extensions.md){.md-button}
+[What's included in Percona Distribution for PostgreSQL? :material-arrow-right:](extensions.md){.md-button}
 
 ## What’s in it for you?
 
-- Compatible for every deployment scenario - whether on premises or in the cloud through [the Kubernetes Operator for PostgreSQL :octicons-link-external-16:](https://www.percona.com/doc/kubernetes-operator-for-postgresql/index.html)
--	No guesswork on finding the right version of a component – all components in the Distribution undergo thorough testing to ensure compatibility.
--	Ensure compliance with security standards to safeguard your sensitive data at rest.
-- Get insights into the database health and performance with [Percona Management and Monitoring :octicons-link-external-16:](https://www.percona.com/doc/percona-monitoring-and-management/2.x/index.html)
+- No vendor lock in - all components of Percona Distribution for PostgreSQL are fully open source
+- No guesswork on finding the right version of a component – they all undergo thorough testing to ensure compatibility
+- Freely available reference architectures for solutions like high-availability, backups and disaster recovery 
+- Spatial data handling support via PostGIS
+- Monitoring of the database health, performance and infrastructure usage via open source [Percona Management and Monitoring :octicons-link-external-16:](https://www.percona.com/doc/percona-monitoring-and-management/2.x/index.html) with PostgreSQL-specific dashboards
+- Run PostgreSQL on Kubernetes using [Percona Operator for PostgreSQL:octicons-link-external-16:](https://docs.percona.com/percona-operator-for-postgresql/2.0/index.html) - open source software that automates deployment and management of PostgreSQL clusters on Kubernetes and orchestrates them  reliably and repeatably. It includes enterprise-ready features for high-availability, backup/restore, replication, sharding, logging, and more 
 
 <div data-grid markdown><div data-banner markdown>
 
